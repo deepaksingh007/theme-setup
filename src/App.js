@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import './custom.scss';
-import Example from './components/Example';
+import Dashboard from './containers/dashboard';
 
 function App() {
   return (
     <div className="App">
       <h1>Elements</h1>
-      <Example />
+      <Dashboard />
     </div>
   );
 }
