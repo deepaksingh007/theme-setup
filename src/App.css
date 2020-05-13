@@ -1,7 +1,17 @@
-.App {
-  text-align: center;
+@media (min-width: 1200px) {
+  .App {
+      max-width: 1140px;
+  }
 }
 
+.App {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +45,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
