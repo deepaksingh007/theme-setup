@@ -74,8 +74,15 @@ const Dashboard = (props) => {
     return (
     <>
       <div>
-      
-       <h1>Colors</h1>
+       <h2>Basic elements</h2>
+       <h4>Buttons</h4>
+       <Row>
+          <Col><Button color="primary">Primary Button</Button></Col>
+          <Col><Button color="secondary">Warning Button</Button></Col>
+          <Col><Button color="success">Default Button</Button></Col>
+          <Col><Button color="info">Danger Button</Button></Col>
+       </Row>
+       <h1>Colors</h1>  
         <p className="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
         <p className="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
         <p className="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
